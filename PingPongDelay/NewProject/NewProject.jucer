@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="vcQ9ji" name="PingPongDelay" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="1" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="wHxSJd" name="PingPongDelay">
+    <GROUP id="{04E30BC1-1DB8-7CAC-AA0C-57CAE84B0338}" name="Source">
+      <FILE id="NSJDvl" name="BasicKnob.cpp" compile="1" resource="0" file="Source/BasicKnob.cpp"/>
+      <FILE id="kBANIt" name="BasicKnob.h" compile="0" resource="0" file="Source/BasicKnob.h"/>
+      <FILE id="JIvfVE" name="LabeledKnob.h" compile="0" resource="0" file="Source/LabeledKnob.h"/>
+      <FILE id="nuprKw" name="ParameterListeners.h" compile="0" resource="0"
+            file="Source/ParameterListeners.h"/>
+      <FILE id="YQOX45" name="PingPongDelayParameters.cpp" compile="1" resource="0"
+            file="Source/PingPongDelayParameters.cpp"/>
+      <FILE id="SfPAaX" name="PingPongDelayParameters.h" compile="0" resource="0"
+            file="Source/PingPongDelayParameters.h"/>
+      <FILE id="f5TJtK" name="PingPongDelayProcessor.cpp" compile="1" resource="0"
+            file="Source/PingPongDelayProcessor.cpp"/>
+      <FILE id="Zrtv0H" name="PingPongDelayProcessor.h" compile="0" resource="0"
+            file="Source/PingPongDelayProcessor.h"/>
+      <FILE id="f78wic" name="PingPongDelayEditor.cpp" compile="1" resource="0"
+            file="Source/PingPongDelayEditor.cpp"/>
+      <FILE id="LRZRKj" name="PingPongDelayEditor.h" compile="0" resource="0"
+            file="Source/PingPongDelayEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="NewProject"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="NewProject"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
